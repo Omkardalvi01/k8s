@@ -23,3 +23,8 @@ spec:
             configMapKeyRef:
               name: synergychat-config
               key: API_PORT
+        - name: API_DB_FILEPATH
+          valueFrom:
+            configMapKeyRef:
+              name: synergychat-config
+              key: API_DB_FILEPATH
